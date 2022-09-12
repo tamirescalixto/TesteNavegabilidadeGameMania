@@ -28,7 +28,7 @@ private WebDriver driver;
 	}
 	
 	@After
-	public void fecha() {
+	public void Encerrar() {
 
 		driver.close();
 
