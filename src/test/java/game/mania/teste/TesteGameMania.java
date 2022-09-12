@@ -28,7 +28,7 @@ private WebDriver driver;
 	}
 	
 	@After
-	public void Encerrar() {
+	public void EncerrarTeste() {
 
 		driver.close();
 
