@@ -27,4 +27,11 @@ private WebDriver driver;
 		driver.findElement(By.id("btn-lupa")).click();
 	}
 	
+	@After
+	public void fecha() {
+
+		driver.close();
+
+	}
+	
 }
